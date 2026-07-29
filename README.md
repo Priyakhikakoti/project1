@@ -166,17 +166,7 @@ http://localhost/project1/
 
 ---
 
-## 📸 Screenshots
 
-Add screenshots of the following pages:
-
-- Home Page
-- About Section
-- Projects Section
-- GitHub Integration
-- AI Chatbot
-- Contact Form
-- Resume Page
 
 ---
 
