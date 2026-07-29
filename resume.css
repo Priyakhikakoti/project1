@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#ececec;
+    padding:20px;
+}
+
+/* Resume Container */
+
+.container{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    background:#fff;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+/* LEFT SECTION */
+
+.left{
+    width:35%;
+    background:#d9d9d9;
+    padding:25px;
+}
+
+/* Profile Image */
+
+.left img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:center 10%;
+    border:3px solid #8cab6b;
+    display:block;
+    margin:0 auto;
+}
+/* Horizontal Line */
+
+.left hr{
+    border:none;
+    border-top:2px solid #8cab6b;
+    margin:18px 0;
+}
+
+/* Left Headings */
+
+.left h2{
+    color:#222;
+    font-size:26px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+/* Contact */
+
+.left p{
+    font-size:14px;
+    line-height:28px;
+    color:#333;
+}
+
+.left i{
+    color:#6f8f55;
+    width:22px;
+}
+
+/* Lists */
+
+.left ul{
+    margin-left:20px;
+}
+
+.left li{
+    font-size:14px;
+    line-height:24px;
+    margin-bottom:8px;
+}
+
+.left small{
+    color:#666;
+}
+
+/* RIGHT SECTION */
+
+.right{
+    width:65%;
+}
+
+/* Green Banner */
+
+.name-banner{
+    background:#8cab6b;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.name-banner h1{
+    font-size:42px;
+    letter-spacing:8px;
+    font-weight:300;
+}
+
+.name-banner p{
+    margin-top:12px;
+    letter-spacing:4px;
+    font-size:13px;
+}
+
+/* Content */
+
+.content{
+    padding:30px;
+}
+
+/* Right Headings */
+
+.right h2{
+    color:#222;
+    font-size:26px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    border-bottom:2px solid #8cab6b;
+    padding-bottom:5px;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+
+/* Paragraph */
+
+.right p{
+    text-align:justify;
+    line-height:26px;
+    font-size:14px;
+    color:#444;
+    margin-bottom:20px;
+}
+
+/* Lists */
+
+.right ul{
+    margin-left:20px;
+    margin-bottom:15px;
+}
+
+.right li{
+    font-size:14px;
+    line-height:24px;
+    color:#444;
+    margin-bottom:6px;
+}
+
+.right ul ul{
+    margin-top:5px;
+    margin-left:18px;
+}
+
+.right ul ul li{
+    list-style-type:circle;
+}
+
+/* Internship & Project Titles */
+
+.right b{
+    font-size:16px;
+    color:#111;
+}
+
+.right i{
+    color:#555;
+    font-size:13px;
+}
+
+/* Hover Effects */
+
+.left h2:hover,
+.right h2:hover{
+    color:#8cab6b;
+    transition:.3s;
+}
+
+/* Responsive */
+
+@media(max-width:1000px){
+
+.container{
+    width:100%;
+    flex-direction:column;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.name-banner h1{
+    font-size:34px;
+    letter-spacing:5px;
+}
+
+.name-banner p{
+    font-size:11px;
+    letter-spacing:2px;
+}
+
+.left img{
+    width:130px;
+    height:130px;
+}
+
+.content{
+    padding:20px;
+}
+
+}
